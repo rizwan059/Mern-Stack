@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://fsdevveloper:riz_3505@cluster0.v01pi.mongodb.net/kinz-closet?retryWrites=true&w=majority&appName=Cluster0';
+const connectionString = '';
 
 const dbConnect = async () => {
     try {
