@@ -12,7 +12,7 @@ const authController = {
             confirmPassword: Joi.ref('password'),
         });
 
-        const {error} = userRegisterSchema.validate(requestAnimationFrame.body);
+        const {error} = userRegisterSchema.validate(req.body);
 
         // 2. if error in validation -> return error via middleware
         // 3. if email or username is already registered -> return an error
